@@ -1,0 +1,77 @@
+.navbar {
+  color: #f2e9e4;
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  margin-top: 0;
+  border-radius: 20px;
+  position: fixed;
+  background: #f0fbff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.title {
+  flex: 1;
+  margin-left: 50px;
+  font-size: 40px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from anchor tag */
+  background: linear-gradient(to bottom right, #2e94b9, #2e94b9); /* Gradient background */
+  -webkit-background-clip: text; /* Clip the background to the text for Safari/Chrome */
+  background-clip: text; /* Clip the background to the text */
+  color: transparent; /* Make the text transparent */
+}
+
+.title:hover {
+  color: #2e94b9; 
+  text-decoration: underline;
+}
+
+.contact-button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 50px;
+  cursor: pointer;
+  text-decoration: none; 
+  font-size: 16px;
+  background-color: #2e94b9;
+}
+
+.contact-button:hover{
+  background-color:#20667f;
+  font-style: italic;
+}
+
+.info-icon {
+  font-size: 50px;
+  margin-right: 50px;
+  color: #38598b; 
+  cursor: pointer;
+}
+
+.info-icon:hover {
+  color: #38598b;
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    margin-left: 20px;/* Adjusted font size for smaller screens */
+  }
+
+  .contact-button {
+    padding: 6px 12px; /* Adjusted padding for smaller screens */
+    margin-right: 10px; /* Further reduced margin for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
+  }
+
+  .info-icon {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+    margin-right: 10px; /* Further reduced margin for smaller screens */
+  }
+}

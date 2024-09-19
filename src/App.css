@@ -1,38 +1,42 @@
-.App {
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+body { 
+  font-weight: 300;
+  
+  background: #f0fbff;
+  height: 100%;
+  line-height: 1.3;
+  color: #2e94b9;
+}
+
+.h1-design {
+  color: #475053;
+  font-size: 2.1rem; /* Increase font size for more impact */
   text-align: center;
+  border-bottom: 2px solid #475053;  /* Thicker border bottom */
+  padding-bottom: 10px; /* Increase padding for better spacing */
+  
+  margin-bottom: 20px; /* Add margin bottom for separation */
+  letter-spacing: 1px; /* Add letter spacing for better readability */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 767px) {
+  .h1-design {
+    font-size: 1.8rem; /* Decrease font size for smaller screens */
+    padding-bottom: 8px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+    letter-spacing: 0.5px; /* Adjust letter spacing for smaller screens */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h1-design:hover {
+  font-style: italic;
 }
 
-.App-link {
-  color: #61dafb;
+html {
+  scroll-behavior: smooth;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

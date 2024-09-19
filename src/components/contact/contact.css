@@ -1,0 +1,83 @@
+.contact-container {
+  padding: 10px 20px; 
+  background: linear-gradient(to bottom right, #2e94b9, #475053); /* Gradient background */
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+
+.contact-container form {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+.h1-design {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #f0fbff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+  
+  background: #f0fbff;
+  
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #f0fbff;
+  color:#2e94b9;  
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #cbcee0;
+}
+
+.h1-contact{
+  text-align: center;
+  color: #f0fbff;
+}
+
+@media (max-width: 767px) {
+  .contact-container {
+    padding: 10px; /* Reduce padding for smaller screens */
+    margin-top: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .contact-container form {
+    margin-left: 10px; /* Adjust left margin for smaller screens */
+    margin-right: 10px; /* Adjust right margin for smaller screens */
+  }
+
+  .h1-design {
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+}
