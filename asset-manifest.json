@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/zaher-dirani-cv/static/css/main.d4d2944d.css",
-    "main.js": "/zaher-dirani-cv/static/js/main.46d97c54.js",
+    "main.js": "/zaher-dirani-cv/static/js/main.8c0eaa8f.js",
     "static/js/453.ed3810f9.chunk.js": "/zaher-dirani-cv/static/js/453.ed3810f9.chunk.js",
     "static/media/sahar.jpeg": "/zaher-dirani-cv/static/media/sahar.4c73ca7d7dbc74032283.jpeg",
     "index.html": "/zaher-dirani-cv/index.html",
     "main.d4d2944d.css.map": "/zaher-dirani-cv/static/css/main.d4d2944d.css.map",
-    "main.46d97c54.js.map": "/zaher-dirani-cv/static/js/main.46d97c54.js.map",
+    "main.8c0eaa8f.js.map": "/zaher-dirani-cv/static/js/main.8c0eaa8f.js.map",
     "453.ed3810f9.chunk.js.map": "/zaher-dirani-cv/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d4d2944d.css",
-    "static/js/main.46d97c54.js"
+    "static/js/main.8c0eaa8f.js"
   ]
 }
